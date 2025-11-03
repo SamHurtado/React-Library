@@ -11,18 +11,18 @@ const Highlights = () => {
                     Why choose <span className='purple'>Library</span>
                 </h2>
                 <div className="highlight__wrapper">
-                    <Highlightgit
-                    icon={<FontAwesome icon="bolt" />} 
+                    <Highlight
+                    icon={<FontAwesomeIcon icon="bolt" />} 
                     title="Easy and Quick"
                     para="Get access to the book you purchased online instantly."
                     />
                     <Highlight
-                    icon={<FontAwesome icon="book-open" />} 
+                    icon={<FontAwesomeIcon icon="book-open" />} 
                     title="10,000+ Books"
                     para="Library has books in all your favorite categories."
                     />
                     <Highlight
-                    icon={<FontAwesome icon="tags" />} 
+                    icon={<FontAwesomeIcon icon="tags" />} 
                     title="Affordable"
                     para="Get your hands on popular books for as little as $10."
                     />
