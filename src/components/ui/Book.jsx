@@ -31,7 +31,7 @@ const Book = ({ book }) => {
                     ${book.salePrice.toFixed(2)}
                     </>
             ) : (
-                <>${book.origianlPrice.toFixed(2)}</>
+                <>${book.originalPrice.toFixed(2)}</>
             )}
         </div>
     </div>        
