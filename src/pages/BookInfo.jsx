@@ -28,7 +28,20 @@ const BookInfo = ({ books }) => {
                                 <div className="book__selected--price">
                                     <Price originalPrice={50} salePrice={20} />
                                 </div>
-                                <div className="book__summary"></div>
+                                <div className="book__summary">
+                                    <div className="book__summary--title">
+                                        Summary
+                                    </div>
+                                    <p className="book__summary__para">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aliquid, aspernatur delectus impedit explicabo ipsa accusamus nesciunt atque distinctio necessitatibus assumenda, debitis ad voluptates dolor eligendi nulla perspiciatis exercitationem rerum.
+                                    </p>
+                                    <p className="book__summary__para">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aliquid, aspernatur delectus impedit explicabo ipsa accusamus nesciunt atque distinctio necessitatibus assumenda, debitis ad voluptates dolor eligendi nulla perspiciatis exercitationem rerum.
+                                    </p>
+                                </div>
+                                <button className='btn'>
+                                    Add to cart
+                                </button>
                             </div>
                         </div>
                     </div>
