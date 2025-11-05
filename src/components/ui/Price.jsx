@@ -4,7 +4,7 @@ import Book from './Book';
 const Price = ({ salePrice, originalPrice, book }) => {
     return (
  <div className="book__price">
-            {book.salePrice ? (
+            {salePrice ? (
                 <>
                 <span className='book__price--normal'>
                     ${originalPrice.toFixed(2)}
