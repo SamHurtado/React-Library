@@ -436,6 +436,10 @@ FEATURES
   color: #242424;
 }
 
+.book__rating {
+  color: #f5c518;
+}
+
 .book__ratings {
   margin-bottom: 8px;
   color: #fabf2a;
